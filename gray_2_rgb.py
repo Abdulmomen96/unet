@@ -1,7 +1,7 @@
 import cv2
 from PIL import Image
 from glob import glob
-images = glob(r'D:\data2\csa\label\\*')
+images = glob(r'.\data2\csa\train\image\\*')
 
 for image in images:
     im = cv2.imread(image, cv2.IMREAD_GRAYSCALE)
